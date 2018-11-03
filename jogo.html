@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="jogo.css">
+
+    <title>Jogo de adinhação</title>
+   
+  </head>
+  <body>
+
+        <h2>Tente adivihar o número entre 0 e 20?</h2><br>
+        <img src="img/download.jpg" alt="dados" id="img">
+        <p>Você tem cinco chances para adivinhar o número,<br> caso
+            contrário o computador ganha...
+        </p>
+
+        <img src="img/dados.png">
+        <h2 id="resposta"></h2>
+        <h4>O número sorteado foi?</h4>
+        <h2 id="numero"></h2>
+
+        <button id="btn" type="button" onclick="NumeroAleatorio()">Jogar</button>
+
+<script src="rand.js"></script>
+</body>
+
+</html>
